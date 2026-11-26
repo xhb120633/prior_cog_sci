@@ -1,0 +1,16 @@
+{
+  "composition": false,
+  "config": {
+    "max_depth": 2,
+    "max_lines": 2,
+    "recent_events": 4
+  },
+  "id": "r8_b",
+  "parents": [
+    "h0"
+  ],
+  "reviewed_input_sha256": {
+    "metadata_sha256": "ee24f27c632d2c4c57e5da79996cd334452abaa4c70c3313169b3e2a93e27923",
+    "source_sha256": "493fe3ffcad584e74fb7c74a8a792fc2173afde44c9e54b56b60be302f606e46"
+  }
+}

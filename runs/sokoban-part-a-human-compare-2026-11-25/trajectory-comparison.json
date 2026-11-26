@@ -1,0 +1,737 @@
+{
+  "by_board": {
+    "30001": {
+      "can_solve": false,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 69.12631578947368,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 14.547368421052632,
+          "n": 95,
+          "reset_trials": 15,
+          "solved": 0,
+          "zero_move_giveups": 17
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 5,
+          "mean_legal_moves_before_give_up": 0,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 5
+        }
+      },
+      "distance": {
+        "alh_human": 0.764655229032316,
+        "human_human": 0.32979945902897023,
+        "sol_human": 0.7631879172092451
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30002": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 94,
+          "mean_legal_moves_before_give_up": 65.41489361702128,
+          "n": 94,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 3,
+          "mean_legal_moves_before_give_up": 14.666666666666666,
+          "n": 94,
+          "reset_trials": 2,
+          "solved": 91,
+          "zero_move_giveups": 0
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 5,
+          "reset_trials": 1,
+          "solved": 5,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.7437542940261596,
+        "human_human": 0.08763815153966234,
+        "sol_human": 0.0786615300166541
+      },
+      "n_eligible": {
+        "alh": 94,
+        "human": 94,
+        "sol": 5
+      }
+    },
+    "30003": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 92,
+          "mean_legal_moves_before_give_up": 64.3586956521739,
+          "n": 92,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 3,
+          "mean_legal_moves_before_give_up": 7.333333333333333,
+          "n": 92,
+          "reset_trials": 6,
+          "solved": 89,
+          "zero_move_giveups": 0
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 5,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.7154422053873768,
+        "human_human": 0.13231894946871006,
+        "sol_human": 0.09703541330840978
+      },
+      "n_eligible": {
+        "alh": 92,
+        "human": 92,
+        "sol": 5
+      }
+    },
+    "30004": {
+      "can_solve": false,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 72.91578947368421,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 16.557894736842105,
+          "n": 95,
+          "reset_trials": 9,
+          "solved": 0,
+          "zero_move_giveups": 14
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 5,
+          "mean_legal_moves_before_give_up": 0,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 5
+        }
+      },
+      "distance": {
+        "alh_human": 0.7407966550088332,
+        "human_human": 0.34069860865562007,
+        "sol_human": 0.7998198532409531
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30012": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 94,
+          "mean_legal_moves_before_give_up": 62.95744680851064,
+          "n": 94,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 10,
+          "mean_legal_moves_before_give_up": 7.3,
+          "n": 94,
+          "reset_trials": 15,
+          "solved": 84,
+          "zero_move_giveups": 5
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 5,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.6971255550232719,
+        "human_human": 0.21146337739218982,
+        "sol_human": 0.17342355726259887
+      },
+      "n_eligible": {
+        "alh": 94,
+        "human": 94,
+        "sol": 5
+      }
+    },
+    "30013": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 60,
+          "mean_legal_moves_before_give_up": 65.31666666666666,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 35,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 95,
+          "zero_move_giveups": 0
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 5,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.8136808424503517,
+        "human_human": 0.0,
+        "sol_human": 0.0
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30014": {
+      "can_solve": false,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 60.56842105263158,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 15.031578947368422,
+          "n": 95,
+          "reset_trials": 30,
+          "solved": 0,
+          "zero_move_giveups": 13
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 5,
+          "mean_legal_moves_before_give_up": 0,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 5
+        }
+      },
+      "distance": {
+        "alh_human": 0.7332263825268638,
+        "human_human": 0.4029761975812244,
+        "sol_human": 0.8018567575457709
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30015": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 64,
+          "mean_legal_moves_before_give_up": 70.3125,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 31,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 95,
+          "zero_move_giveups": 0
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 5,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.861188682964598,
+        "human_human": 0.005175781250000001,
+        "sol_human": 0.00205078125
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30030": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 79.34736842105264,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 2,
+          "mean_legal_moves_before_give_up": 65.5,
+          "n": 95,
+          "reset_trials": 12,
+          "solved": 93,
+          "zero_move_giveups": 0
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 1,
+          "mean_legal_moves_before_give_up": 13,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 4,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.6726314320619527,
+        "human_human": 0.14934345505623225,
+        "sol_human": 0.2877582345943285
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30031": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 94,
+          "mean_legal_moves_before_give_up": 79.6063829787234,
+          "n": 94,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 2,
+          "mean_legal_moves_before_give_up": 19.5,
+          "n": 94,
+          "reset_trials": 17,
+          "solved": 92,
+          "zero_move_giveups": 0
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 0,
+          "mean_legal_moves_before_give_up": null,
+          "n": 5,
+          "reset_trials": 1,
+          "solved": 5,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.6488755677164507,
+        "human_human": 0.16499201135182004,
+        "sol_human": 0.3934919538008061
+      },
+      "n_eligible": {
+        "alh": 94,
+        "human": 94,
+        "sol": 5
+      }
+    },
+    "30032": {
+      "can_solve": false,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 84.93684210526315,
+          "n": 95,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 95,
+          "mean_legal_moves_before_give_up": 22.86315789473684,
+          "n": 95,
+          "reset_trials": 14,
+          "solved": 0,
+          "zero_move_giveups": 22
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 5,
+          "mean_legal_moves_before_give_up": 0.4,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 3
+        }
+      },
+      "distance": {
+        "alh_human": 0.7247058893493384,
+        "human_human": 0.40606346278506217,
+        "sol_human": 0.6940613146461266
+      },
+      "n_eligible": {
+        "alh": 95,
+        "human": 95,
+        "sol": 5
+      }
+    },
+    "30033": {
+      "can_solve": true,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 93,
+          "mean_legal_moves_before_give_up": 76.40860215053763,
+          "n": 93,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 10,
+          "mean_legal_moves_before_give_up": 11.4,
+          "n": 93,
+          "reset_trials": 13,
+          "solved": 83,
+          "zero_move_giveups": 1
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 5,
+          "mean_legal_moves_before_give_up": 8.2,
+          "n": 5,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.6352464764906219,
+        "human_human": 0.25129025973153724,
+        "sol_human": 0.6733798737119913
+      },
+      "n_eligible": {
+        "alh": 93,
+        "human": 93,
+        "sol": 5
+      }
+    }
+  },
+  "by_family": {
+    "us_1": {
+      "boards": 4,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 376,
+          "mean_legal_moves_before_give_up": 67.98936170212765,
+          "n": 376,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 196,
+          "mean_legal_moves_before_give_up": 15.41326530612245,
+          "n": 376,
+          "reset_trials": 32,
+          "solved": 180,
+          "zero_move_giveups": 31
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 10,
+          "mean_legal_moves_before_give_up": 0.0,
+          "n": 20,
+          "reset_trials": 1,
+          "solved": 10,
+          "zero_move_giveups": 10
+        }
+      },
+      "distance": {
+        "alh_human": 0.7411620958636713,
+        "human_human": 0.22261379217324068,
+        "sol_human": 0.4346761784438155
+      }
+    },
+    "us_10": {
+      "boards": 4,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 377,
+          "mean_legal_moves_before_give_up": 80.09549071618036,
+          "n": 377,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 109,
+          "mean_legal_moves_before_give_up": 22.53211009174312,
+          "n": 377,
+          "reset_trials": 56,
+          "solved": 268,
+          "zero_move_giveups": 23
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 11,
+          "mean_legal_moves_before_give_up": 5.090909090909091,
+          "n": 20,
+          "reset_trials": 1,
+          "solved": 9,
+          "zero_move_giveups": 3
+        }
+      },
+      "distance": {
+        "alh_human": 0.670364841404591,
+        "human_human": 0.24292229723116293,
+        "sol_human": 0.5121728441883131
+      }
+    },
+    "us_4+us_5": {
+      "boards": 4,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 313,
+          "mean_legal_moves_before_give_up": 64.18849840255591,
+          "n": 379,
+          "reset_trials": 0,
+          "solved": 66,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 105,
+          "mean_legal_moves_before_give_up": 14.295238095238096,
+          "n": 379,
+          "reset_trials": 45,
+          "solved": 274,
+          "zero_move_giveups": 18
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 5,
+          "mean_legal_moves_before_give_up": 0.0,
+          "n": 20,
+          "reset_trials": 0,
+          "solved": 15,
+          "zero_move_giveups": 5
+        }
+      },
+      "distance": {
+        "alh_human": 0.7763053657412713,
+        "human_human": 0.15490383905585356,
+        "sol_human": 0.24433277401459244
+      }
+    }
+  },
+  "by_solvability": {
+    "solvable": {
+      "boards": 8,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 686,
+          "mean_legal_moves_before_give_up": 70.74927113702624,
+          "n": 752,
+          "reset_trials": 0,
+          "solved": 66,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 30,
+          "mean_legal_moves_before_give_up": 14.1,
+          "n": 752,
+          "reset_trials": 65,
+          "solved": 722,
+          "zero_move_giveups": 6
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 6,
+          "mean_legal_moves_before_give_up": 9.0,
+          "n": 40,
+          "reset_trials": 2,
+          "solved": 34,
+          "zero_move_giveups": 0
+        }
+      },
+      "distance": {
+        "alh_human": 0.7234931320150979,
+        "human_human": 0.12527774822376897,
+        "sol_human": 0.21322516799309857
+      }
+    },
+    "unsolvable": {
+      "boards": 4,
+      "diagnostics": {
+        "alh": {
+          "cap": 0,
+          "gave_up": 380,
+          "mean_legal_moves_before_give_up": 71.88684210526316,
+          "n": 380,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 0
+        },
+        "human": {
+          "cap": 0,
+          "gave_up": 380,
+          "mean_legal_moves_before_give_up": 17.25,
+          "n": 380,
+          "reset_trials": 68,
+          "solved": 0,
+          "zero_move_giveups": 66
+        },
+        "sol": {
+          "cap": 0,
+          "gave_up": 20,
+          "mean_legal_moves_before_give_up": 0.1,
+          "n": 20,
+          "reset_trials": 0,
+          "solved": 0,
+          "zero_move_giveups": 18
+        }
+      },
+      "distance": {
+        "alh_human": 0.7408460389793379,
+        "human_human": 0.3698844320127192,
+        "sol_human": 0.7647314606605239
+      }
+    }
+  },
+  "macro": {
+    "boards": 12,
+    "diagnostics": {
+      "alh": {
+        "cap": 0,
+        "gave_up": 1066,
+        "mean_legal_moves_before_give_up": 71.1547842401501,
+        "n": 1132,
+        "reset_trials": 0,
+        "solved": 66,
+        "zero_move_giveups": 0
+      },
+      "human": {
+        "cap": 0,
+        "gave_up": 410,
+        "mean_legal_moves_before_give_up": 17.01951219512195,
+        "n": 1132,
+        "reset_trials": 133,
+        "solved": 722,
+        "zero_move_giveups": 72
+      },
+      "sol": {
+        "cap": 0,
+        "gave_up": 26,
+        "mean_legal_moves_before_give_up": 2.1538461538461537,
+        "n": 60,
+        "reset_trials": 2,
+        "solved": 34,
+        "zero_move_giveups": 18
+      }
+    },
+    "distance": {
+      "alh_human": 0.7292774343365113,
+      "human_human": 0.2068133094867524,
+      "sol_human": 0.3970605988822404
+    }
+  },
+  "replicates_per_board_per_arm": 5,
+  "resampling_draws": 512,
+  "seed": 20261125
+}

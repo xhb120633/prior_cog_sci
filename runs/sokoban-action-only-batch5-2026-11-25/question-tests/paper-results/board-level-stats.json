@@ -1,0 +1,143 @@
+{
+  "bootstrap": {
+    "numpy_rng_seed": 20261125,
+    "paired": true,
+    "percentiles": [
+      0.025,
+      0.975
+    ],
+    "resamples": 200000,
+    "sampling_unit": "board"
+  },
+  "definitions": {
+    "first_push": "Within each episode, average the paired model success and uniform success probability on the same eligible decisions. Average episodes within each board, and average paired board contrasts. Each board has equal weight.",
+    "opening": "For each overlapping board, take the shortest-solve rate with vs without a complete shortest opening report. Average the paired rate contrast across boards.",
+    "state_sensitivity": "Average repeated visits to each identical board/player/box state, then weight distinct states equally within board."
+  },
+  "first_push": {
+    "board_differences": [
+      0.5148148148148147,
+      0.598529411764706,
+      0.45904761904761915,
+      0.4615686274509804,
+      0.6547619047619048,
+      0.75,
+      0.6666666666666667,
+      0.5076923076923079,
+      0.517037037037037,
+      0.4630103059988118,
+      0.39096365745664796,
+      0.6179761904761905
+    ],
+    "bootstrap_ci95": [
+      0.4940035533584556,
+      0.6092146407339708
+    ],
+    "decision_equal_within_board": {
+      "board_differences": [
+        0.5151515151515151,
+        0.5987654320987654,
+        0.45945945945945943,
+        0.4605263157894737,
+        0.654761904761905,
+        0.75,
+        0.6666666666666667,
+        0.5076923076923079,
+        0.5170068027210886,
+        0.4736111111111108,
+        0.3613387978142082,
+        0.613821138211382
+      ],
+      "bootstrap_ci95": [
+        0.4896248237842377,
+        0.6085539668709388
+      ],
+      "leave_one_board_out": [
+        0.5298910410434439,
+        0.5652238776057886
+      ],
+      "left_mean": 0.9536622806832997,
+      "mean_difference": 0.5482334542898236,
+      "n_boards": 12,
+      "negative_boards": 0,
+      "positive_boards": 12,
+      "right_mean": 0.4054288263934762,
+      "tied_boards": 0
+    },
+    "eligibility_counts": {
+      "eligible": 896,
+      "first_push_not_viable": 1,
+      "no_identifiable_push": 17,
+      "opportunities": 914,
+      "reported_shortest": 801
+    },
+    "leave_one_board_out": [
+      0.5320062311970624,
+      0.5646458987010035
+    ],
+    "left_mean": 0.955387588688391,
+    "mean_difference": 0.5501723785973072,
+    "n_boards": 12,
+    "negative_boards": 0,
+    "positive_boards": 12,
+    "right_mean": 0.40521521009108374,
+    "state_equal_within_board": {
+      "board_differences": [
+        0.5138888888888888,
+        0.6058823529411765,
+        0.45666666666666667,
+        0.46458333333333335,
+        0.6547619047619048,
+        0.75,
+        0.6666666666666667,
+        0.5076923076923078,
+        0.5166666666666667,
+        0.4910493827160495,
+        0.4153348166984532,
+        0.6190476190476191
+      ],
+      "bootstrap_ci95": [
+        0.5019595241468153,
+        0.6119409183344261
+      ],
+      "leave_one_board_out": [
+        0.5374764187345211,
+        0.5679005263073891
+      ],
+      "left_mean": 0.9611975621138945,
+      "mean_difference": 0.555186717173311,
+      "n_boards": 12,
+      "negative_boards": 0,
+      "positive_boards": 12,
+      "right_mean": 0.4060108449405835,
+      "tied_boards": 0
+    },
+    "tied_boards": 0
+  },
+  "opening": {
+    "board_differences": [
+      0.0,
+      0.6666666666666667,
+      0.75,
+      0.0,
+      -0.25,
+      0.0,
+      0.0
+    ],
+    "bootstrap_ci95": [
+      -0.07142857142857142,
+      0.42857142857142855
+    ],
+    "leave_one_board_out": [
+      0.06944444444444446,
+      0.23611111111111113
+    ],
+    "left_mean": 0.5357142857142857,
+    "mean_difference": 0.16666666666666669,
+    "n_boards": 7,
+    "negative_boards": 1,
+    "positive_boards": 2,
+    "right_mean": 0.369047619047619,
+    "tied_boards": 4
+  }
+}

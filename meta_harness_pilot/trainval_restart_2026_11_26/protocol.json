@@ -1,0 +1,37 @@
+{
+  "actor": {
+    "model": "openai/gpt-6.2-sol",
+    "provider": "openai",
+    "reasoning_effort": "low",
+    "request_timeout_s": 90,
+    "transport_format_retries": 1
+  },
+  "contexts_per_layout": 4,
+  "decision_cap": 100,
+  "episodes_per_layout": 3,
+  "eps_distance": 0.01,
+  "eps_rt": 0.05,
+  "frozen_h0_sha256": "b33402e1a55b6f16efe0368bf37cedb961ff7801aaa5a61f8f5044e0073e4bd0",
+  "frozen_scorer_sha256": "64796d4c602485e8203cf0a664105ce7475a0a642af581194bbfee350e23d28f",
+  "max_rounds": 20,
+  "patience": 6,
+  "public_split_summary": {
+    "free_episodes_per_board_per_arm": 3,
+    "n_train_boards": 7,
+    "n_train_score_groups": 2,
+    "n_validation_boards": 8,
+    "n_validation_score_groups": 2,
+    "replay_draws_per_context": 3,
+    "rollout_horizon": 100,
+    "rt_contexts_per_board": 4
+  },
+  "replay_draws_per_context": 3,
+  "rt_support_policy": {
+    "min_rt_boards": 2,
+    "min_rt_cases": 8
+  },
+  "scope": "Disjoint train and validation layout families. No prior test used.",
+  "study": "from_h0_trainval_restart",
+  "validation_feedback": "Aggregate metrics and paired intervals only.",
+  "warm_start": "original_h0_only"
+}

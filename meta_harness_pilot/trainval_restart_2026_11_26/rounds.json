@@ -1,0 +1,1314 @@
+{
+  "h0": {
+    "composition": false,
+    "exploration": false,
+    "id": "h0",
+    "parents": [],
+    "progress_reason": "baseline",
+    "screen_reason": "baseline",
+    "train": {
+      "distance": 0.2799828912395963,
+      "informative_boards": 6,
+      "rt": 0.451848057057532,
+      "rt_cases": 24
+    },
+    "val": {
+      "distance": 0.36742525021440164,
+      "informative_boards": 3,
+      "rt": 0.15858547916080384,
+      "rt_cases": 12
+    }
+  },
+  "rounds": [
+    {
+      "accepted_frontier": [
+        "r1_a"
+      ],
+      "accepted_progress": [
+        "r1_a"
+      ],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r1_a",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.3023378935378729,
+            "informative_boards": 7,
+            "rt": 0.6184029963599622,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.34448873443649464,
+            "informative_boards": 8,
+            "rt": 0.6558212030385642,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.4972357238777604,
+              "trajectory_distance": -0.022936515777906983
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.27549493574575223,
+                0.7449205810076551
+              ],
+              "trajectory_distance": [
+                -0.05834259134456048,
+                0.011844422717036864
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": true,
+          "id": "r1_b",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "dominated_or_duplicate_among_measured_points",
+          "screen_reason": "predeclared_exploration",
+          "train": {
+            "distance": 0.24388065330824574,
+            "informative_boards": 7,
+            "rt": 0.6689170958817182,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3654871983245376,
+            "informative_boards": 8,
+            "rt": 0.587278294151621,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.4286928149908172,
+              "trajectory_distance": -0.0019380518898640502
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.22686722083353564,
+                0.6932224969584868
+              ],
+              "trajectory_distance": [
+                -0.028545197021416537,
+                0.02505058317336227
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r1_a"
+      ],
+      "round": 1,
+      "seats": {
+        "champion": "r1_a",
+        "different": "h0",
+        "distance_extreme": "r1_a",
+        "rt_extreme": "r1_a"
+      },
+      "stale_rounds": 0,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r1_a"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r2_a",
+          "parents": [
+            "r1_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.2400386728807109,
+            "informative_boards": 7,
+            "rt": 0.4427209041283856,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3571207822000836,
+            "informative_boards": 8,
+            "rt": 0.5753698480687688,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.41678436890796494,
+              "trajectory_distance": -0.010304468014318002
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.17049392524365609,
+                0.7189765120097685
+              ],
+              "trajectory_distance": [
+                -0.049183627122316484,
+                0.032089789005638816
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r2_b",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "validation_rt_support_insufficient",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.25320709443410905,
+            "informative_boards": 1,
+            "rt": 0.12909944487358058,
+            "rt_cases": 4
+          },
+          "val": {
+            "distance": 0.3457734747005229,
+            "informative_boards": 0,
+            "rt": 0.0,
+            "rt_cases": 0
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": -0.15858547916080384,
+              "trajectory_distance": -0.021651775513878715
+            },
+            "paired_95": {
+              "rt_spearman": [
+                -0.3494458195400028,
+                0.03227486121839514
+              ],
+              "trajectory_distance": [
+                -0.140431161012104,
+                0.0830157234087971
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r1_a"
+      ],
+      "round": 2,
+      "seats": {
+        "champion": "r1_a",
+        "different": "h0",
+        "distance_extreme": "r1_a",
+        "rt_extreme": "r1_a"
+      },
+      "stale_rounds": 1,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r1_a",
+        "r3_a"
+      ],
+      "accepted_progress": [
+        "r3_a"
+      ],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r3_a",
+          "parents": [
+            "r1_a"
+          ],
+          "progress_reason": "new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.19178205738613907,
+            "informative_boards": 7,
+            "rt": 0.6885303726590963,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3580332444188256,
+            "informative_boards": 8,
+            "rt": 0.7745966692414834,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.6160111900806795,
+              "trajectory_distance": -0.009392005795576003
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.42515084970148054,
+                0.8068715304598786
+              ],
+              "trajectory_distance": [
+                -0.06923566150631397,
+                0.04972048831475796
+              ]
+            }
+          }
+        },
+        {
+          "composition": true,
+          "exploration": true,
+          "id": "r3_b",
+          "parents": [
+            "h0",
+            "r1_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "predeclared_composition",
+          "train": {
+            "distance": 0.2781921135899014,
+            "informative_boards": 7,
+            "rt": 0.4879445805672963,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.334792570872399,
+            "informative_boards": 8,
+            "rt": 0.6875611167890395,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.5289756376282357,
+              "trajectory_distance": -0.032632679342002605
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.31395351156201734,
+                0.7548996661570018
+              ],
+              "trajectory_distance": [
+                -0.0651186880098385,
+                0.0017457036009228925
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r3_a",
+        "r3_b"
+      ],
+      "round": 3,
+      "seats": {
+        "champion": "r3_b",
+        "different": "r3_a",
+        "distance_extreme": "r3_b",
+        "rt_extreme": "r3_a"
+      },
+      "stale_rounds": 0,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a"
+      ],
+      "accepted_progress": [
+        "r4_a"
+      ],
+      "candidates": [
+        {
+          "composition": true,
+          "exploration": false,
+          "id": "r4_a",
+          "parents": [
+            "r3_b",
+            "r3_a"
+          ],
+          "progress_reason": "new_practical_joint_coverage",
+          "screen_reason": "predeclared_composition",
+          "train": {
+            "distance": 0.2593300563098483,
+            "informative_boards": 7,
+            "rt": 0.6056147092878754,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.32962497149568826,
+            "informative_boards": 8,
+            "rt": 0.8003506842927651,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.6417652051319612,
+              "trajectory_distance": -0.037800278718713366
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.46094730121764377,
+                0.8286323590610074
+              ],
+              "trajectory_distance": [
+                -0.08195973436164986,
+                0.002831912430269999
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r4_b",
+          "parents": [
+            "r3_a"
+          ],
+          "progress_reason": "not_validated",
+          "screen_reason": "clear_train_pareto_domination",
+          "train": {
+            "distance": 0.22301387443949838,
+            "informative_boards": 7,
+            "rt": 0.6328543978893124,
+            "rt_cases": 28
+          },
+          "val": null
+        }
+      ],
+      "observed_frontier": [
+        "r4_a"
+      ],
+      "round": 4,
+      "seats": {
+        "champion": "r4_a",
+        "different": "h0",
+        "distance_extreme": "r4_a",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 0,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r5_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.22457545911845755,
+            "informative_boards": 7,
+            "rt": 0.7955597661313392,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3737292018713244,
+            "informative_boards": 8,
+            "rt": 0.790569415042095,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.6319839358812911,
+              "trajectory_distance": 0.006303951656922824
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.3615950578454978,
+                0.8478655279451756
+              ],
+              "trajectory_distance": [
+                -0.07041764111033452,
+                0.07664108875478222
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r5_b",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "validation_distance_worse_than_h0",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.2611687038296134,
+            "informative_boards": 7,
+            "rt": 0.7749551460905106,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3781860741557514,
+            "informative_boards": 8,
+            "rt": 0.3999599190617587,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.24137443990095492,
+              "trajectory_distance": 0.010760823941349782
+            },
+            "paired_95": {
+              "rt_spearman": [
+                -0.09450735287639839,
+                0.5168693756467071
+              ],
+              "trajectory_distance": [
+                -0.01612079058175428,
+                0.04104486830643461
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a"
+      ],
+      "round": 5,
+      "seats": {
+        "champion": "r4_a",
+        "different": "h0",
+        "distance_extreme": "r4_a",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 1,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r6_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "not_validated",
+          "screen_reason": "clear_train_pareto_domination",
+          "train": {
+            "distance": 0.2746810839812679,
+            "informative_boards": 7,
+            "rt": 0.4976160599455758,
+            "rt_cases": 28
+          },
+          "val": null
+        },
+        {
+          "composition": false,
+          "exploration": true,
+          "id": "r6_b",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "predeclared_exploration",
+          "train": {
+            "distance": 0.25689119107828895,
+            "informative_boards": 7,
+            "rt": 0.6492766524489153,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3410320363619632,
+            "informative_boards": 8,
+            "rt": 0.3267417986341043,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.16815631947330045,
+              "trajectory_distance": -0.026393213852438417
+            },
+            "paired_95": {
+              "rt_spearman": [
+                -0.09450735287639841,
+                0.43081999182299935
+              ],
+              "trajectory_distance": [
+                -0.09196564369816393,
+                0.03583346324698476
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a"
+      ],
+      "round": 6,
+      "seats": {
+        "champion": "r4_a",
+        "different": "h0",
+        "distance_extreme": "r4_a",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 2,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r7_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.20151759004001507,
+            "informative_boards": 7,
+            "rt": 0.7689488723997485,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3589665012982418,
+            "informative_boards": 8,
+            "rt": 0.5788914383665369,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.420305959205733,
+              "trajectory_distance": -0.00845874891615982
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.027599649677683857,
+                0.697476850622851
+              ],
+              "trajectory_distance": [
+                -0.045452060617796906,
+                0.025632721560133465
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r7_b",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "not_validated",
+          "screen_reason": "clear_train_pareto_domination",
+          "train": {
+            "distance": 0.29635150693557605,
+            "informative_boards": 7,
+            "rt": 0.392291273027343,
+            "rt_cases": 28
+          },
+          "val": null
+        }
+      ],
+      "observed_frontier": [
+        "r4_a"
+      ],
+      "round": 7,
+      "seats": {
+        "champion": "r4_a",
+        "different": "h0",
+        "distance_extreme": "r4_a",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 3,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [
+        "r8_b"
+      ],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r8_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "validation_distance_worse_than_h0",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.19454967365438247,
+            "informative_boards": 7,
+            "rt": 0.6629108221909561,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.4018942577590866,
+            "informative_boards": 8,
+            "rt": 0.7989562708271791,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.6403707916663752,
+              "trajectory_distance": 0.034469007544684974
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.47406010681947697,
+                0.8008222804451499
+              ],
+              "trajectory_distance": [
+                -0.015585961319226765,
+                0.07855807791270544
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r8_b",
+          "parents": [
+            "h0"
+          ],
+          "progress_reason": "new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.2898855344720393,
+            "informative_boards": 7,
+            "rt": 0.6065020840545761,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.313443570288802,
+            "informative_boards": 8,
+            "rt": 0.6356526038016976,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.4770671246408938,
+              "trajectory_distance": -0.05398167992559967
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.26936195942392005,
+                0.7233575683052027
+              ],
+              "trajectory_distance": [
+                -0.1492631658801358,
+                0.0263769515972056
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "round": 8,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r8_b",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 0,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": true,
+          "exploration": false,
+          "id": "r9_a",
+          "parents": [
+            "r4_a",
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "predeclared_composition",
+          "train": {
+            "distance": 0.21782300376648672,
+            "informative_boards": 7,
+            "rt": 0.6056147092878754,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3732082449256805,
+            "informative_boards": 8,
+            "rt": 0.7430545713896844,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.5844690922288805,
+              "trajectory_distance": 0.00578299471127889
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.41815840738198223,
+                0.76807582307437
+              ],
+              "trajectory_distance": [
+                -0.04482407255917571,
+                0.05845251967035898
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": true,
+          "id": "r9_b",
+          "parents": [
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "predeclared_exploration",
+          "train": {
+            "distance": 0.2724849798372667,
+            "informative_boards": 7,
+            "rt": 0.7646159670629951,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.36521891831146014,
+            "informative_boards": 8,
+            "rt": 0.6983363166205172,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.5397508374597133,
+              "trajectory_distance": -0.002206331902941505
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.28386917849133925,
+                0.737864787372622
+              ],
+              "trajectory_distance": [
+                -0.03567216397728643,
+                0.03218812541864508
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "round": 9,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r8_b",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 1,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r10_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.22562207394525524,
+            "informative_boards": 7,
+            "rt": 0.5087901256326899,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3597637885700793,
+            "informative_boards": 8,
+            "rt": 0.6785261006375797,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.5199406214767758,
+              "trajectory_distance": -0.007661461644322291
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.20727694912707698,
+                0.7858434652253459
+              ],
+              "trajectory_distance": [
+                -0.058582415210832996,
+                0.03994308760190305
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r10_b",
+          "parents": [
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.23277826892994735,
+            "informative_boards": 7,
+            "rt": 0.7280259881820579,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.32203426301452837,
+            "informative_boards": 8,
+            "rt": 0.5130106537796956,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.3544251746188917,
+              "trajectory_distance": -0.04539098719987326
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.05901504489841286,
+                0.5966590805175127
+              ],
+              "trajectory_distance": [
+                -0.103615817783524,
+                -0.0006353746458216021
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "round": 10,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r8_b",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 2,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r11_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.21818537730626347,
+            "informative_boards": 7,
+            "rt": 0.4819493028868893,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.37304488381991585,
+            "informative_boards": 8,
+            "rt": 0.6222786309856531,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.4636931518248492,
+              "trajectory_distance": 0.00561963360551419
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.21420563639251863,
+                0.7340820298606425
+              ],
+              "trajectory_distance": [
+                -0.021346014892434814,
+                0.02885711780885733
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r11_b",
+          "parents": [
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.2881665183796331,
+            "informative_boards": 7,
+            "rt": 0.6888051232010202,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3600469819674105,
+            "informative_boards": 8,
+            "rt": 0.49889130455755765,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.3403058253967538,
+              "trajectory_distance": -0.007378268246991178
+            },
+            "paired_95": {
+              "rt_spearman": [
+                -0.19321832114112325,
+                0.7115124735378855
+              ],
+              "trajectory_distance": [
+                -0.029043463760842846,
+                0.010548779324464345
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "round": 11,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r8_b",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 3,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r12_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "not_validated",
+          "screen_reason": "clear_train_pareto_domination",
+          "train": {
+            "distance": 0.30974891287197676,
+            "informative_boards": 7,
+            "rt": 0.6056147092878754,
+            "rt_cases": 28
+          },
+          "val": null
+        },
+        {
+          "composition": false,
+          "exploration": true,
+          "id": "r12_b",
+          "parents": [
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "predeclared_exploration",
+          "train": {
+            "distance": 0.2109375739704475,
+            "informative_boards": 7,
+            "rt": 0.6065020840545761,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3473579932395352,
+            "informative_boards": 8,
+            "rt": 0.6765754880193884,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.5179900088585845,
+              "trajectory_distance": -0.020067256974866464
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.2766155689576296,
+                0.7292801156888613
+              ],
+              "trajectory_distance": [
+                -0.07529468461040129,
+                0.04096406011522398
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "round": 12,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r8_b",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r4_a"
+      },
+      "stale_rounds": 4,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r13_a",
+          "parents": [
+            "r4_a"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.2870198035992081,
+            "informative_boards": 7,
+            "rt": 0.7075192870877325,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.33851090669852657,
+            "informative_boards": 8,
+            "rt": 0.822111512893894,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.66352603373309,
+              "trajectory_distance": -0.02891434351587506
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.4827081298187726,
+                0.8293651224276035
+              ],
+              "trajectory_distance": [
+                -0.07896041640738412,
+                0.020239862739714662
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r13_b",
+          "parents": [
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.19506900925206422,
+            "informative_boards": 7,
+            "rt": 0.5833468419878612,
+            "rt_cases": 28
+          },
+          "val": {
+            "distance": 0.3462900696204973,
+            "informative_boards": 8,
+            "rt": 0.6719840027857806,
+            "rt_cases": 32
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.5133985236249768,
+              "trajectory_distance": -0.02113518059390433
+            },
+            "paired_95": {
+              "rt_spearman": [
+                0.2825381163412883,
+                0.7115124735378855
+              ],
+              "trajectory_distance": [
+                -0.07900240657797404,
+                0.035677811018670846
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r4_a",
+        "r8_b",
+        "r13_a"
+      ],
+      "round": 13,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r8_b",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r13_a"
+      },
+      "stale_rounds": 5,
+      "stop_reason": null
+    },
+    {
+      "accepted_frontier": [
+        "r4_a",
+        "r8_b"
+      ],
+      "accepted_progress": [],
+      "candidates": [
+        {
+          "composition": true,
+          "exploration": false,
+          "id": "r14_a",
+          "parents": [
+            "r4_a",
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "predeclared_composition",
+          "train": {
+            "distance": 0.2414092028562629,
+            "informative_boards": 6,
+            "rt": 0.5788745256078576,
+            "rt_cases": 24
+          },
+          "val": {
+            "distance": 0.3453846300983142,
+            "informative_boards": 7,
+            "rt": 0.39995991906175876,
+            "rt_cases": 28
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.2413744399009549,
+              "trajectory_distance": -0.022040620116087414
+            },
+            "paired_95": {
+              "rt_spearman": [
+                -0.014507219067419197,
+                0.5117633179367482
+              ],
+              "trajectory_distance": [
+                -0.041384447743382326,
+                -0.0032132782778561443
+              ]
+            }
+          }
+        },
+        {
+          "composition": false,
+          "exploration": false,
+          "id": "r14_b",
+          "parents": [
+            "r8_b"
+          ],
+          "progress_reason": "no_new_practical_joint_coverage",
+          "screen_reason": "not_clearly_train_pareto_dominated",
+          "train": {
+            "distance": 0.21824950623887335,
+            "informative_boards": 6,
+            "rt": 0.451848057057532,
+            "rt_cases": 24
+          },
+          "val": {
+            "distance": 0.3565325988900059,
+            "informative_boards": 6,
+            "rt": 0.24043124759618517,
+            "rt_cases": 24
+          },
+          "validation_comparison": {
+            "delta_vs_h0": {
+              "rt_spearman": 0.08184576843538136,
+              "trajectory_distance": -0.010892651324395701
+            },
+            "paired_95": {
+              "rt_spearman": [
+                -0.12631061794240872,
+                0.28721332788199955
+              ],
+              "trajectory_distance": [
+                -0.07578753396604943,
+                0.044572841487593516
+              ]
+            }
+          }
+        }
+      ],
+      "observed_frontier": [
+        "r13_a",
+        "r4_a",
+        "r8_b"
+      ],
+      "round": 14,
+      "seats": {
+        "champion": "r4_a",
+        "different": "r13_a",
+        "distance_extreme": "r8_b",
+        "rt_extreme": "r13_a"
+      },
+      "stale_rounds": 6,
+      "stop_reason": "patience_exhausted"
+    }
+  ]
+}

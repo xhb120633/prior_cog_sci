@@ -1,0 +1,55 @@
+def routes(p,b,goal,walkable,successors):
+    queue,seen,out = [(p,None,0)],{p},[]
+    for i,(x,f,k) in enumerate(queue):
+        if i==53: return out,i,True
+        for a,(q,n) in successors((x,b)).items():
+            s = a if f is None else f
+            if n==b and q not in seen: seen.add(q); queue.append((q,s,k+1))
+            if n!=b: r,c = n[0]-b[0],n[1]-b[1]; v = n==goal or walkable((n[0]+r,n[1]+c)) or (walkable((n[0]+c,n[1]-r)) and walkable((n[0]-c,n[1]+r))); out.append((s,q,n,k,v))
+    return out,len(queue),False
+def dist(x,y): return abs(x[0]-y[0])+abs(x[1]-y[1])
+def plan(state, history, goal, walkable, successors, base_search, rng):
+    p,b = state; legal = successors(state); work = 0
+    if not legal or b==goal: return {'policy':{'give_up':1.0},'expansions':0}
+    used,walked,visits,age,pushed = set(),set(),{},0,False; start = history[0][0][1] if history else b; restarted = len(history)>160
+    for i in range(max(0,len(history)-160),len(history)):
+        old,a = history[i]; new = history[i+1][0] if i+1<len(history) else state
+        if a=='reset': used,walked,visits,age,pushed = set(),set(),{},0,False; restarted = True; continue
+        age += 1; visits[old] = visits.get(old,0)+1; pushed = old[1]!=new[1]
+        if pushed: used.add((old[1],new[1])); walked = set()
+        else: walked.add(old[0])
+    old,a = history[-1] if history else (state,None); onward = [z for z,s in legal.items() if s!=old]
+    if age and not pushed and len(onward)==1 and legal[onward[0]][1]==b and legal[onward[0]][0] not in walked: return {'policy':{onward[0]:1.0},'expansions':0}
+    if age and pushed and a in legal and legal[a][1]!=b and (b,legal[a][1]) not in used:
+        n = legal[a][1]; r,c = n[0]-b[0],n[1]-b[1]; d = dist(b,goal); sides = ((c,-r),(-c,r)); direct = d<=24 and (b[0]+d*r,b[1]+d*c)==goal; detour = (goal[0]-b[0])*r+(goal[1]-b[1])*c<0 and not any(walkable((p[0]+u,p[1]+v)) for u,v in sides)
+        for k in range(1,1+(d if direct else 3 if detour else 0)):
+            x,y = b[0]+k*r,b[1]+k*c; work += 1
+            if not walkable((x,y)): break
+            openings = [(u,v) for u,v in sides if walkable((x-r+u,y-c+v))]
+            if (x,y)==goal or (not direct and any(walkable((x+u,y+v)) and walkable((x+r+u,y+c+v)) and walkable((x+r,y+c)) for u,v in openings)): return {'policy':{a:1.0},'expansions':work}
+            if not direct and openings: break
+    root,w,cut = routes(p,b,goal,walkable,successors); work += w
+    cues = list({a for a,q,n,k,v in root if v and (b,n) not in used}); a = cues[0] if len(cues)==1 else None
+    if age and not pushed and not cut and state not in visits and a is not None and legal[a][1]==b and legal[a][0] not in walked: return {'policy':{a:1.0},'expansions':work}
+    back,wave = {goal:0},[goal]
+    for i,y in enumerate(wave):
+        if i==64: break
+        for r,c in ((1,0),(-1,0),(0,1),(0,-1)):
+            n,s = (y[0]+r,y[1]+c),(y[0]+2*r,y[1]+2*c)
+            if n not in back and walkable(n) and walkable(s): back[n] = back[y]+1; wave.append(n)
+    work += min(64,len(wave)); agenda,best,front,fallback = [(0.0,None,state,True)],{(state,True):0.0},{},{}
+    for t in range(44):
+        if not agenda: break
+        j = min(range(len(agenda)),key=lambda i: agenda[i][0]+0.85*back.get(agenda[i][2][1],dist(agenda[i][2][1],goal)+4*(b in back))); cost,first,(x,y),known = agenda.pop(j); work += 1
+        if cost>best[((x,y),known)]: continue
+        if y==goal: return {'policy':{first:1.0,'give_up':exp(min(-1.2,cost-0.8*dist(b,goal)-5.8)) if not age else 0.0},'expansions':work}
+        opts,w,gap = (root,0,False) if first is None else routes(x,y,goal,walkable,successors); work += w; cut = cut or gap
+        for a,q,n,k,v in opts:
+            f = a if first is None else first; tried = (y,n) in used; revisit = first is None and legal[a][0] in walked; step = 0.23*k+0.45*revisit; gain = dist(y,goal)-dist(n,goal); score = cost+0.8+step; key = ((q,n),known and tried)
+            if first is None: fallback[f] = max(fallback.get(f,-1000),0.45*gain-step-1.4*tried-1.8*(not v))
+            if known and not tried: front[f] = max(front.get(f,-1000),0.45*gain-step-0.9*cost-2.4*(not v))
+            if v and score<best.get(key,10000): best[key] = score; agenda.append((score,f,(q,n),known and tried))
+    options = front or fallback; closed = not cut and not any(c<=best[(s,h)] for c,a,s,h in agenda); top = max(options.values()) if options else 0.0; policy = {a:exp(2.2*(v-top)) for a,v in options.items()}
+    odds = -3.8-top+0.8*closed+0.55*min(4,visits.get(state,0))+1.5*(not front); stop = sum(policy.values())*exp(min(3.0,odds-0.9*(age>0 and not pushed and state not in visits))) if policy else 1.0
+    retry = 0.8 if closed and b!=start and age>=3 and not restarted else 0.0; policy.update({'give_up':stop*(1-retry),'reset':stop*retry})
+    return {'policy':policy,'expansions':work}

@@ -1,0 +1,17 @@
+{
+  "composition": true,
+  "config": {
+    "max_depth": 2,
+    "max_lines": 2,
+    "recent_events": 4
+  },
+  "id": "r4_a",
+  "parents": [
+    "r3_b",
+    "r3_a"
+  ],
+  "reviewed_input_sha256": {
+    "metadata_sha256": "fce200012a0882e64036b4c4923ae1ca52df8ed668fbe30d7485805e0d2b7239",
+    "source_sha256": "c8a0e4eb1a25a3a3d24ab2c7a0c938e85d1af68a5d781caccb0e0b99821f2007"
+  }
+}

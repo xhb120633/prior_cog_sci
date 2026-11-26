@@ -1,0 +1,15 @@
+{
+  "search": {
+    "frontier": "close_alternatives",
+    "gap": 1.6,
+    "alternative_interval": 4,
+    "pruning": "fixed",
+    "root_prune_scale": 1.0,
+    "deep_prune_scale": 1.0,
+    "deep_ply": 2,
+    "stability_limit": null,
+    "stability_min_iterations": 1
+  },
+  "scale": {},
+  "offset": {}
+}

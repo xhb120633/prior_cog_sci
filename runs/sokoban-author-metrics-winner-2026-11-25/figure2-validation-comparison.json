@@ -1,0 +1,159 @@
+{
+  "panels": {
+    "a": {
+      "author_cache": 0.87,
+      "baseline_fixed_all_choices": 0.305919464042926,
+      "baseline_fixed_direction_only": 0.305919464042926,
+      "forced_prefix_action_weights_every_board": {
+        "baseline": {
+          "30001": {
+            "down": 0.3885717972574827,
+            "left": 0.30460698067799363,
+            "right": 0.3068212220645236
+          },
+          "30002": {
+            "down": 0.38728432551690756,
+            "left": 0.3048593422976606,
+            "right": 0.30785633218543185
+          },
+          "30003": {
+            "down": 0.3877032340816819,
+            "left": 0.3053979144970821,
+            "right": 0.3068988514212361
+          },
+          "30004": {
+            "down": 0.3890646352439339,
+            "left": 0.3036023874246666,
+            "right": 0.3073329773313995
+          }
+        },
+        "winner": {
+          "30001": {
+            "give_up": 0.020035709033629657,
+            "left": 0.11888812895543992,
+            "right": 0.8610761620109304
+          },
+          "30002": {
+            "right": 1.0
+          },
+          "30003": {
+            "left": 1.0
+          },
+          "30004": {
+            "give_up": 0.020035709033629657,
+            "left": 0.8610761620109304,
+            "right": 0.11888812895543992
+          }
+        }
+      },
+      "free_rollout": {
+        "baseline": {
+          "direction": 376,
+          "episodes": 376,
+          "match": 118,
+          "match_given_direction": 0.31382978723404253,
+          "reached": 376
+        },
+        "human": {
+          "direction": 345,
+          "episodes": 380,
+          "match": 332,
+          "match_given_direction": 0.9623188405797102,
+          "reached": 346
+        },
+        "winner": {
+          "direction": 353,
+          "episodes": 376,
+          "match": 332,
+          "match_given_direction": 0.9405099150141643,
+          "reached": 357
+        }
+      },
+      "human_legacy": 0.9651162790697675,
+      "winner_fixed_all_choices": 0.9305380810054652,
+      "winner_fixed_direction_only": 0.9393405810541315
+    },
+    "b": {
+      "easy": {
+        "author_iterations": 9.0,
+        "baseline_key_work": 11.77,
+        "baseline_prefix_plus_key_work": 19.48,
+        "human_seconds": 2.606032258064516,
+        "winner_key_work": 72.5,
+        "winner_prefix_plus_key_work": 145
+      },
+      "hard": {
+        "author_iterations": 83.505,
+        "baseline_key_work": 11.67,
+        "baseline_prefix_plus_key_work": 19.365000000000002,
+        "human_seconds": 8.855934640522877,
+        "winner_key_work": 240.5,
+        "winner_prefix_plus_key_work": 481
+      }
+    },
+    "c": {
+      "competing": {
+        "author_iterations": 81.27,
+        "baseline_key_work": 10.489999999999998,
+        "baseline_prefix_plus_key_work": 17.705,
+        "human_seconds": 6.2119871794871795,
+        "winner_key_work": 1587,
+        "winner_prefix_plus_key_work": 3174
+      },
+      "no_competitor": {
+        "author_iterations": 68.005,
+        "baseline_key_work": 10.57,
+        "baseline_prefix_plus_key_work": 17.705,
+        "human_seconds": 5.994378378378379,
+        "winner_key_work": 833.5,
+        "winner_prefix_plus_key_work": 1667
+      }
+    },
+    "d": {
+      "archive_legacy_mean_abs_error": 18.466623373439973,
+      "author_cache": 33.438826530612246,
+      "author_cache_by_board": [
+        28.53061224489796,
+        32.97,
+        27.52,
+        44.734693877551024
+      ],
+      "author_r_vs_legacy_human": 0.9896221839341199,
+      "baseline": {
+        "all_attempt_legal_steps": 71.88684210526316,
+        "last_attempt_legal_steps": 71.88684210526316,
+        "last_attempt_legal_steps_after_zfilter": 70.64447494852436,
+        "legacy_mean_abs_error": 55.672271791352095,
+        "r_vs_human_legacy": 0.9739856268184347,
+        "r_vs_human_replayed_legal": 0.9751735073834129
+      },
+      "boards": [
+        "30001",
+        "30004",
+        "30014",
+        "30032"
+      ],
+      "human": {
+        "all_attempt_legal_steps": 17.25,
+        "last_attempt_legal_steps": 14.2,
+        "last_attempt_legal_steps_after_zfilter": 14.2
+      },
+      "human_legacy_raw_keys": 14.972203157172272,
+      "human_legacy_raw_keys_by_board": [
+        12.5,
+        15.548387096774194,
+        11.702127659574469,
+        20.138297872340427
+      ],
+      "winner": {
+        "all_attempt_legal_steps": 20.542105263157897,
+        "last_attempt_legal_steps": 14.405263157894737,
+        "last_attempt_legal_steps_after_zfilter": 14.238205457019351,
+        "legacy_mean_abs_error": 4.291164553456393,
+        "r_vs_human_legacy": 0.9906299344481173,
+        "r_vs_human_replayed_legal": 0.9917438978136444
+      }
+    }
+  },
+  "winner_sha256": "12f9188f164c502fef7c503f4474ee0dbad916f4b1c475765a905697953c4f22"
+}

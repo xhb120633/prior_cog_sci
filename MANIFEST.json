@@ -1,0 +1,208 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 79,
+      "sha256": "7f94f95cf0863f9c8d3a707fce14bc5b5ce125176b09a7d63a8e6aefda4bf1c2"
+    },
+    "README.md": {
+      "bytes": 3119,
+      "sha256": "ee417b0ecb3ff1503a7662f1f2baea96a1d9b14e036de53a9fec066e92d00d73"
+    },
+    "figures/plot_four_tactics.py": {
+      "bytes": 5281,
+      "sha256": "e8382847e226bf82f0d3b17236442a0781b1afbbd56dfd83850a468462abc183"
+    },
+    "figures/plot_part_a.py": {
+      "bytes": 5814,
+      "sha256": "d05eda2ecd72c3d4b7c965ecb81828f4edca9b8f62b45108bf36c70bbac88d18"
+    },
+    "figures/plot_sokoban.py": {
+      "bytes": 6578,
+      "sha256": "8a0d8e1f6a83a23d00d11d2543345b8cff752e4222d224bb15bca54e5827b232"
+    },
+    "figures/plot_tasks.py": {
+      "bytes": 8333,
+      "sha256": "e9991e419d75edf9e45e5be83be7b797408742275b9baf6279a653bdae0cb1cc"
+    },
+    "meta_harness_pilot/__init__.py": {
+      "bytes": 66,
+      "sha256": "0fdffc37ce4f9a73adcb51d42bc33ee9710456f4622f3cc11e8126b845802cad"
+    },
+    "meta_harness_pilot/frozen_confirmation_2026_11_26/final-report.json": {
+      "bytes": 21569,
+      "sha256": "79eced324326cd59a9d690d3f77c8cf792e9dd83774c48424af98dc17964a52c"
+    },
+    "meta_harness_pilot/h0.py": {
+      "bytes": 5492,
+      "sha256": "b33402e1a55b6f16efe0368bf37cedb961ff7801aaa5a61f8f5044e0073e4bd0"
+    },
+    "meta_harness_pilot/mock_models.py": {
+      "bytes": 2734,
+      "sha256": "7c45cab123baf58d961d1740d3e10383965a641e256fd222e32d65fe25328233"
+    },
+    "meta_harness_pilot/ports.py": {
+      "bytes": 1998,
+      "sha256": "b5ee151e9d989b4ea11ad4f997c694d68f408b17c215042355e24aca563b4c43"
+    },
+    "meta_harness_pilot/runner.py": {
+      "bytes": 9242,
+      "sha256": "cf0c04a23e7a2fc514f8daf8b0f9c670aa759f2bd7bb2abdb3f2039e94075aea"
+    },
+    "meta_harness_pilot/smoke.py": {
+      "bytes": 2731,
+      "sha256": "ecc749e4fa074f379515a23a8bf5de39ae071bb0abf77ed08ca4aea343b751e7"
+    },
+    "meta_harness_pilot/sokoban_scoring.py": {
+      "bytes": 7851,
+      "sha256": "25ddfe494a07662bf9562c685ddc3a2f58e6503230c49e664deaed42a1c6b304"
+    },
+    "meta_harness_pilot/sokoban_trace.py": {
+      "bytes": 4299,
+      "sha256": "df5031e7c5e853cd95b6f15d8fcbf86660e2fc2886bb8f24af799c57e5d90dad"
+    },
+    "meta_harness_pilot/tasks.py": {
+      "bytes": 7532,
+      "sha256": "7794defde90c41740f4fc3d758870528925c117b67b267f2ae94d4f7a3c14a6e"
+    },
+    "meta_harness_pilot/test_pilot.py": {
+      "bytes": 5751,
+      "sha256": "9e31b88a5fc7b86a10fbd5103c872ff92850c81db4c9a9d4e73e48eeee5511c6"
+    },
+    "meta_harness_pilot/test_sokoban_scoring.py": {
+      "bytes": 2155,
+      "sha256": "b2f5f1c70fdea87f1a2ce2c5d4f60f7d609ae07ffaaf6b49cb1ae50d64adf01d"
+    },
+    "meta_harness_pilot/test_sokoban_trace.py": {
+      "bytes": 4215,
+      "sha256": "fcdcb133de715908e7daf480118110c49a12b39c69d3f04bb7400b471cef80fa"
+    },
+    "meta_harness_pilot/trainval_restart_2026_11_26/candidates/r4_a/candidate.json": {
+      "bytes": 380,
+      "sha256": "f3004ede56a7d333aaece598f8a300445ae906420e3cc5e0a43efb225fef4586"
+    },
+    "meta_harness_pilot/trainval_restart_2026_11_26/candidates/r4_a/harness.py": {
+      "bytes": 9643,
+      "sha256": "c8a0e4eb1a25a3a3d24ab2c7a0c938e85d1af68a5d781caccb0e0b99821f2007"
+    },
+    "meta_harness_pilot/trainval_restart_2026_11_26/candidates/r8_b/candidate.json": {
+      "bytes": 367,
+      "sha256": "c6a461c1c1c46b46226fc3aee73f872f4d12158566462b72eed27fcde2fac298"
+    },
+    "meta_harness_pilot/trainval_restart_2026_11_26/candidates/r8_b/harness.py": {
+      "bytes": 8024,
+      "sha256": "493fe3ffcad584e74fb7c74a8a792fc2173afde44c9e54b56b60be302f606e46"
+    },
+    "meta_harness_pilot/trainval_restart_2026_11_26/protocol.json": {
+      "bytes": 1184,
+      "sha256": "3bb97b22ea8a93c7746966cd6e6e395d04e124b405a32e5e806c4e540f6e5809"
+    },
+    "meta_harness_pilot/trainval_restart_2026_11_26/rounds.json": {
+      "bytes": 37032,
+      "sha256": "5b2e65a3cbde192a5aa718664d4ec0640bea7779e9f027bb8cfc47068c20767e"
+    },
+    "requirements-figures.txt": {
+      "bytes": 28,
+      "sha256": "f2474e79247a1ad965a2b8a20ef8ce4fa6a01b2dc86b7cc43095145ad9d28b94"
+    },
+    "requirements-scorer.txt": {
+      "bytes": 24,
+      "sha256": "3e7c285201aa9d481b7473f4b49a9dac75af78fbc0111d9666c7733d096f0735"
+    },
+    "runs/fourinarow-baseline-eval-2026-11-25/frozen-params.json": {
+      "bytes": 64470,
+      "sha256": "b14ed70309c2913b523f9338d9994ac79511fb27a3f3d24a4147d32f02d7ddc4"
+    },
+    "runs/fourinarow-baseline-eval-2026-11-25/model.py": {
+      "bytes": 10993,
+      "sha256": "1b7799b99c991ef544a1e6ff04b0f841ba1e7f789f982dd8754d000b5e7aa7f6"
+    },
+    "runs/fourinarow-discovery-2026-11-25/candidate_model.py": {
+      "bytes": 8642,
+      "sha256": "0f6cd24a3f4a3e1be53c56e03e784b6f35fd8fc257c82805d304b0d2f764a91c"
+    },
+    "runs/fourinarow-discovery-2026-11-25/champion-spec.json": {
+      "bytes": 317,
+      "sha256": "152f86edc1fb51968473dc9c01b3d20cfb0d0de3438c5d0dfcd8e730e079f038"
+    },
+    "runs/fourinarow-heldout-final-2026-11-25/test-32-paired.json": {
+      "bytes": 11140,
+      "sha256": "2848cf2b8e9ddc2b596608933eb809c77aabfa2e369e63a197453621c9b503c8"
+    },
+    "runs/sokoban-action-only-batch5-2026-11-25/question-tests/paper-results/board-level-stats.json": {
+      "bytes": 3986,
+      "sha256": "0d283bbffc65c6917f0f91898641a860424dffcb7ddea40f67f6303a9156aebc"
+    },
+    "runs/sokoban-alh-pilot-2026-11-25/alh_planner.py": {
+      "bytes": 6345,
+      "sha256": "869d40dfa29a64013f8e5f1bb3c7d7de492b34611d6f727f80e2a6b81594fb2e"
+    },
+    "runs/sokoban-author-metrics-winner-2026-11-25/figure2-validation-comparison.json": {
+      "bytes": 4987,
+      "sha256": "52ca15fef45a187f9179583327e8feccbe8b0832d49f55c1c8d8d90305261cc9"
+    },
+    "runs/sokoban-heldout-final-2026-11-25/run/scores.json": {
+      "bytes": 40421,
+      "sha256": "386df201190b228a6ba6a52f5109264915741a279ada51916e4e3fd94ed374b1"
+    },
+    "runs/sokoban-part-a-human-compare-2026-11-25/rt-overlap-comparison.json": {
+      "bytes": 62217,
+      "sha256": "1e61f2cf4f7a6a39e412d207853e0d43642af6329b3cc8488c53fe31266675a1"
+    },
+    "runs/sokoban-part-a-human-compare-2026-11-25/trajectory-comparison.json": {
+      "bytes": 18735,
+      "sha256": "ca94acb92eee6f45db5ce98f5b0bdba9946e096d43c68b90a92095ec031ebe9b"
+    },
+    "runs/sokoban-sol-continuation-2026-11-25/export/incumbent-program.py.txt": {
+      "bytes": 4926,
+      "sha256": "12f9188f164c502fef7c503f4474ee0dbad916f4b1c475765a905697953c4f22"
+    },
+    "runs/sokoban-val-eval-2026-11-25/metrics.py": {
+      "bytes": 10202,
+      "sha256": "64796d4c602485e8203cf0a664105ce7475a0a642af581194bbfee350e23d28f"
+    },
+    "sokoban_part_a/README.md": {
+      "bytes": 2803,
+      "sha256": "1048d68555a2932bf36f99b54ef754b9acf3d98c6f43f8e8be7c5d4f4eb8e729"
+    },
+    "sokoban_part_a/__init__.py": {
+      "bytes": 263,
+      "sha256": "571561b1ddec97bbc9f36e06799622d4290e6bd05fb2120dc52357775e7e9fc4"
+    },
+    "sokoban_part_a/__main__.py": {
+      "bytes": 2290,
+      "sha256": "690a3e3b074affd6d0b27fff73919fc1d2211a305703fd0f8c654b6ed16a5ab6"
+    },
+    "sokoban_part_a/data/actor_boards.json": {
+      "bytes": 59142,
+      "sha256": "ba6975aaf433617accc849a6e503ed9d5e9eb5883f2dbebcb965f7738039e42e"
+    },
+    "sokoban_part_a/env.py": {
+      "bytes": 5898,
+      "sha256": "e21a4039a42aacc64a12877c9053aa3f5b4b0cfb052ba0c008950e74d1f6ddb5"
+    },
+    "sokoban_part_a/llm_human_proxy.py": {
+      "bytes": 19663,
+      "sha256": "a974c3cabe7147461a5d3f4985a68864b4fdf23103459ec942b55cbc63b0cbd9"
+    },
+    "sokoban_part_a/test_env.py": {
+      "bytes": 5114,
+      "sha256": "adbe184d49008407a77ec845ec41f5b6e0d3af1389132b8056179d98e74b8cea"
+    },
+    "sokoban_part_a/test_llm_human_proxy.py": {
+      "bytes": 11187,
+      "sha256": "5deea4e30ab9ee07e0e434ec13bd9b38840b67f3a981ddf136cdb2a5c2caf33a"
+    },
+    "sokoban_part_a/verify.py": {
+      "bytes": 2469,
+      "sha256": "45e5650078fcc8e51db36cb20b725a75d85438b188e952d102603d574ebf6fac"
+    },
+    "tools/check_harnesses.py": {
+      "bytes": 3890,
+      "sha256": "dd9e848733be1b4f77e3923e232e1f81adb54e84a6e60c5b24040d143ecca805"
+    },
+    "tools/check_part_b.py": {
+      "bytes": 6002,
+      "sha256": "d6cac6890d439ec02f89f5b54eb73c686bf37fff86f382fc0eaf94da3beb1b91"
+    }
+  }
+}

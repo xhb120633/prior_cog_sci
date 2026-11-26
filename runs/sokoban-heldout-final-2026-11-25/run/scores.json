@@ -1,0 +1,1172 @@
+{
+  "arms": {
+    "g21-candidate-3": {
+      "macro": {
+        "human_diagnostics": {
+          "cap_rate": 0.0,
+          "give_up_rate": 0.5636604774535809,
+          "incomplete_rate": 0.0,
+          "moves_before_give_up": 19.52235294117647,
+          "n": 754,
+          "n_capped": 0,
+          "n_gave_up": 425,
+          "n_incomplete": 0,
+          "n_reset": 86,
+          "n_solved": 329,
+          "reset_rate": 0.11405835543766578,
+          "solve_rate": 0.4363395225464191
+        },
+        "human_human_distance": 0.14439606621339582,
+        "model_diagnostics": {
+          "cap_rate": 0.0,
+          "give_up_rate": 0.553050397877984,
+          "incomplete_rate": 0.0,
+          "moves_before_give_up": 26.690647482014388,
+          "n": 754,
+          "n_capped": 0,
+          "n_gave_up": 417,
+          "n_incomplete": 0,
+          "n_reset": 189,
+          "n_solved": 337,
+          "reset_rate": 0.2506631299734748,
+          "solve_rate": 0.4469496021220159
+        },
+        "model_human_at_reference_n": 0.299443634737934,
+        "n_boards": 8,
+        "n_families": 2,
+        "n_rt": 14704,
+        "n_rt_scored_boards": 8,
+        "rt_spearman": 0.06403261893456834,
+        "trajectory_distance": 0.291834999873682
+      },
+      "per_board": {
+        "30005": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.25806451612903225,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 12.75,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 24,
+            "n_incomplete": 0,
+            "n_reset": 14,
+            "n_solved": 69,
+            "reset_rate": 0.15053763440860216,
+            "solve_rate": 0.7419354838709677
+          },
+          "human_human_distance": 0.14470986012851786,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.1935483870967742,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 0.0,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 18,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 75,
+            "reset_rate": 0.0,
+            "solve_rate": 0.8064516129032258
+          },
+          "model_human_at_reference_n": 0.21791609411007773,
+          "n_human_trajectories_eligible": 93,
+          "n_model_trajectories_eligible": 93,
+          "n_reference_draws": 24,
+          "n_reference_each": 46,
+          "n_rt": 1959,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1959,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 93,
+          "rt_spearman": 0.13962494725416852,
+          "rt_status": "ok",
+          "trajectory_distance": 0.21666702541182384
+        },
+        "30006": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.20430107526881722,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 8.947368421052632,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 19,
+            "n_incomplete": 0,
+            "n_reset": 12,
+            "n_solved": 74,
+            "reset_rate": 0.12903225806451613,
+            "solve_rate": 0.7956989247311828
+          },
+          "human_human_distance": 0.14038191044456338,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.20430107526881722,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 0.0,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 19,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 74,
+            "reset_rate": 0.0,
+            "solve_rate": 0.7956989247311828
+          },
+          "model_human_at_reference_n": 0.21792396936721273,
+          "n_human_trajectories_eligible": 93,
+          "n_model_trajectories_eligible": 93,
+          "n_reference_draws": 24,
+          "n_reference_each": 46,
+          "n_rt": 2044,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 2044,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 93,
+          "rt_spearman": 0.17943410758287479,
+          "rt_status": "ok",
+          "trajectory_distance": 0.2165987142088637
+        },
+        "30007": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 25.263157894736842,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 17,
+            "n_solved": 0,
+            "reset_rate": 0.17894736842105263,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.23629788103398117,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 31.08421052631579,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 30,
+            "n_solved": 0,
+            "reset_rate": 0.3157894736842105,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.4127416465807558,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 2330,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 2330,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": -0.0008206314385469889,
+          "rt_status": "ok",
+          "trajectory_distance": 0.39007496904999606
+        },
+        "30008": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 26.71578947368421,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 19,
+            "n_solved": 0,
+            "reset_rate": 0.2,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.2539683718217615,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 33.04210526315789,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 36,
+            "n_solved": 0,
+            "reset_rate": 0.37894736842105264,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.4190699453023779,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 2464,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 2464,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": 0.03180360251832372,
+          "rt_status": "ok",
+          "trajectory_distance": 0.3977578537033855
+        },
+        "30026": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 15.621052631578948,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 9,
+            "n_solved": 0,
+            "reset_rate": 0.09473684210526316,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.1552005832448901,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 26.28421052631579,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 57,
+            "n_solved": 0,
+            "reset_rate": 0.6,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.4168527040161097,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 1437,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1437,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": 0.019426623509729513,
+          "rt_status": "ok",
+          "trajectory_distance": 0.4086168487874869
+        },
+        "30027": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.010526315789473684,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 3.0,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 1,
+            "n_incomplete": 0,
+            "n_reset": 2,
+            "n_solved": 94,
+            "reset_rate": 0.021052631578947368,
+            "solve_rate": 0.9894736842105263
+          },
+          "human_human_distance": 0.05743816621880735,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": null,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 0,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 95,
+            "reset_rate": 0.0,
+            "solve_rate": 1.0
+          },
+          "model_human_at_reference_n": 0.21447901720725585,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 1645,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1645,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": 0.4035628627722177,
+          "rt_status": "ok",
+          "trajectory_distance": 0.2173174483462048
+        },
+        "30028": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 14.442105263157895,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 11,
+            "n_solved": 0,
+            "reset_rate": 0.11578947368421053,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.14810199743596117,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 26.74736842105263,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 66,
+            "n_solved": 0,
+            "reset_rate": 0.6947368421052632,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.4792754648589652,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 1323,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1323,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": -0.30851247139479765,
+          "rt_status": "ok",
+          "trajectory_distance": 0.46994687709552463
+        },
+        "30029": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.010752688172043012,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 24.0,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 1,
+            "n_incomplete": 0,
+            "n_reset": 2,
+            "n_solved": 92,
+            "reset_rate": 0.021505376344086023,
+            "solve_rate": 0.989247311827957
+          },
+          "human_human_distance": 0.019069759378683864,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": null,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 0,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 93,
+            "reset_rate": 0.0,
+            "solve_rate": 1.0
+          },
+          "model_human_at_reference_n": 0.01729023646071701,
+          "n_human_trajectories_eligible": 93,
+          "n_model_trajectories_eligible": 93,
+          "n_reference_draws": 24,
+          "n_reference_each": 46,
+          "n_rt": 1502,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1502,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 93,
+          "rt_spearman": 0.047741910672577104,
+          "rt_status": "ok",
+          "trajectory_distance": 0.017700262386170704
+        }
+      },
+      "per_family": {
+        "us_2": {
+          "boards": [
+            "30005",
+            "30006",
+            "30007",
+            "30008"
+          ],
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.6196808510638298,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 23.236051502145923,
+            "n": 376,
+            "n_capped": 0,
+            "n_gave_up": 233,
+            "n_incomplete": 0,
+            "n_reset": 62,
+            "n_solved": 143,
+            "reset_rate": 0.16489361702127658,
+            "solve_rate": 0.3803191489361702
+          },
+          "human_human_distance": 0.193839505857206,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.6037234042553191,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 26.837004405286343,
+            "n": 376,
+            "n_capped": 0,
+            "n_gave_up": 227,
+            "n_incomplete": 0,
+            "n_reset": 66,
+            "n_solved": 149,
+            "reset_rate": 0.17553191489361702,
+            "solve_rate": 0.3962765957446808
+          },
+          "model_human_at_reference_n": 0.31691291384010606,
+          "n_boards": 4,
+          "n_rt": 8797,
+          "n_rt_scored_boards": 4,
+          "rt_spearman": 0.08751050647920501,
+          "trajectory_distance": 0.3052746405935173
+        },
+        "us_9": {
+          "boards": [
+            "30026",
+            "30027",
+            "30028",
+            "30029"
+          ],
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.5079365079365079,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 15.015625,
+            "n": 378,
+            "n_capped": 0,
+            "n_gave_up": 192,
+            "n_incomplete": 0,
+            "n_reset": 24,
+            "n_solved": 186,
+            "reset_rate": 0.06349206349206349,
+            "solve_rate": 0.49206349206349204
+          },
+          "human_human_distance": 0.09495262656958563,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.5026455026455027,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 26.51578947368421,
+            "n": 378,
+            "n_capped": 0,
+            "n_gave_up": 190,
+            "n_incomplete": 0,
+            "n_reset": 123,
+            "n_solved": 188,
+            "reset_rate": 0.3253968253968254,
+            "solve_rate": 0.4973544973544973
+          },
+          "model_human_at_reference_n": 0.28197435563576195,
+          "n_boards": 4,
+          "n_rt": 5907,
+          "n_rt_scored_boards": 4,
+          "rt_spearman": 0.04055473138993167,
+          "trajectory_distance": 0.2783953591538468
+        }
+      }
+    },
+    "pilot-unit-cost": {
+      "macro": {
+        "human_diagnostics": {
+          "cap_rate": 0.0,
+          "give_up_rate": 0.5636604774535809,
+          "incomplete_rate": 0.0,
+          "moves_before_give_up": 19.52235294117647,
+          "n": 754,
+          "n_capped": 0,
+          "n_gave_up": 425,
+          "n_incomplete": 0,
+          "n_reset": 86,
+          "n_solved": 329,
+          "reset_rate": 0.11405835543766578,
+          "solve_rate": 0.4363395225464191
+        },
+        "human_human_distance": 0.14439606621339582,
+        "model_diagnostics": {
+          "cap_rate": 0.002652519893899204,
+          "give_up_rate": 0.9946949602122016,
+          "incomplete_rate": 0.0,
+          "moves_before_give_up": 81.144,
+          "n": 754,
+          "n_capped": 2,
+          "n_gave_up": 750,
+          "n_incomplete": 0,
+          "n_reset": 0,
+          "n_solved": 2,
+          "reset_rate": 0.0,
+          "solve_rate": 0.002652519893899204
+        },
+        "model_human_at_reference_n": 0.7332973503417655,
+        "n_boards": 8,
+        "n_families": 2,
+        "n_rt": 14704,
+        "n_rt_scored_boards": 8,
+        "rt_spearman": -0.06680270529208475,
+        "trajectory_distance": 0.7308364184186256
+      },
+      "per_board": {
+        "30005": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.25806451612903225,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 12.75,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 24,
+            "n_incomplete": 0,
+            "n_reset": 14,
+            "n_solved": 69,
+            "reset_rate": 0.15053763440860216,
+            "solve_rate": 0.7419354838709677
+          },
+          "human_human_distance": 0.14470986012851786,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 81.86021505376344,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 93,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.7149555042745156,
+          "n_human_trajectories_eligible": 93,
+          "n_model_trajectories_eligible": 93,
+          "n_reference_draws": 24,
+          "n_reference_each": 46,
+          "n_rt": 1959,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1959,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 93,
+          "rt_spearman": -0.07649080024695361,
+          "rt_status": "ok",
+          "trajectory_distance": 0.7144165275334025
+        },
+        "30006": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.20430107526881722,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 8.947368421052632,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 19,
+            "n_incomplete": 0,
+            "n_reset": 12,
+            "n_solved": 74,
+            "reset_rate": 0.12903225806451613,
+            "solve_rate": 0.7956989247311828
+          },
+          "human_human_distance": 0.14038191044456338,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 78.09677419354838,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 93,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.7027737584564525,
+          "n_human_trajectories_eligible": 93,
+          "n_model_trajectories_eligible": 93,
+          "n_reference_draws": 24,
+          "n_reference_each": 46,
+          "n_rt": 2044,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 2044,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 93,
+          "rt_spearman": -0.04420803537306275,
+          "rt_status": "ok",
+          "trajectory_distance": 0.7013469392022598
+        },
+        "30007": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 25.263157894736842,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 17,
+            "n_solved": 0,
+            "reset_rate": 0.17894736842105263,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.23629788103398117,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 81.02105263157895,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.6746270037435889,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 2330,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 2330,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": -0.07108439083264023,
+          "rt_status": "ok",
+          "trajectory_distance": 0.6763189678868476
+        },
+        "30008": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 26.71578947368421,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 19,
+            "n_solved": 0,
+            "reset_rate": 0.2,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.2539683718217615,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 81.6,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.6828274457793069,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 2464,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 2464,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": -0.05183763011084408,
+          "rt_status": "ok",
+          "trajectory_distance": 0.6708423407397962
+        },
+        "30026": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 15.621052631578948,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 9,
+            "n_solved": 0,
+            "reset_rate": 0.09473684210526316,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.1552005832448901,
+          "model_diagnostics": {
+            "cap_rate": 0.010526315789473684,
+            "give_up_rate": 0.9894736842105263,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 89.06382978723404,
+            "n": 95,
+            "n_capped": 1,
+            "n_gave_up": 94,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.7769377848807429,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 1437,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1437,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": 0.019517454746276624,
+          "rt_status": "ok",
+          "trajectory_distance": 0.774328489323576
+        },
+        "30027": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.010526315789473684,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 3.0,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 1,
+            "n_incomplete": 0,
+            "n_reset": 2,
+            "n_solved": 94,
+            "reset_rate": 0.021052631578947368,
+            "solve_rate": 0.9894736842105263
+          },
+          "human_human_distance": 0.05743816621880735,
+          "model_diagnostics": {
+            "cap_rate": 0.010526315789473684,
+            "give_up_rate": 0.9789473684210527,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 74.34408602150538,
+            "n": 95,
+            "n_capped": 1,
+            "n_gave_up": 93,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 1,
+            "reset_rate": 0.0,
+            "solve_rate": 0.010526315789473684
+          },
+          "model_human_at_reference_n": 0.7524991607276051,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 1645,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1645,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": 0.019056629506971776,
+          "rt_status": "ok",
+          "trajectory_distance": 0.7523106468610539
+        },
+        "30028": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 14.442105263157895,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 11,
+            "n_solved": 0,
+            "reset_rate": 0.11578947368421053,
+            "solve_rate": 0.0
+          },
+          "human_human_distance": 0.14810199743596117,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 81.45263157894736,
+            "n": 95,
+            "n_capped": 0,
+            "n_gave_up": 95,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.7776882839298459,
+          "n_human_trajectories_eligible": 95,
+          "n_model_trajectories_eligible": 95,
+          "n_reference_draws": 24,
+          "n_reference_each": 47,
+          "n_rt": 1323,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1323,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 95,
+          "rt_spearman": 0.00015395782484942547,
+          "rt_status": "ok",
+          "trajectory_distance": 0.7727497983512597
+        },
+        "30029": {
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.010752688172043012,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 24.0,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 1,
+            "n_incomplete": 0,
+            "n_reset": 2,
+            "n_solved": 92,
+            "reset_rate": 0.021505376344086023,
+            "solve_rate": 0.989247311827957
+          },
+          "human_human_distance": 0.019069759378683864,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.989247311827957,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 81.6195652173913,
+            "n": 93,
+            "n_capped": 0,
+            "n_gave_up": 92,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 1,
+            "reset_rate": 0.0,
+            "solve_rate": 0.010752688172043012
+          },
+          "model_human_at_reference_n": 0.7840698609420657,
+          "n_human_trajectories_eligible": 93,
+          "n_model_trajectories_eligible": 93,
+          "n_reference_draws": 24,
+          "n_reference_each": 46,
+          "n_rt": 1502,
+          "n_rt_invalid": 0,
+          "n_rt_rows": 1502,
+          "n_trajectory_draws": 1,
+          "n_trajectory_each": 93,
+          "rt_spearman": -0.3295288278512752,
+          "rt_status": "ok",
+          "trajectory_distance": 0.7843776374508086
+        }
+      },
+      "per_family": {
+        "us_2": {
+          "boards": [
+            "30005",
+            "30006",
+            "30007",
+            "30008"
+          ],
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.6196808510638298,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 23.236051502145923,
+            "n": 376,
+            "n_capped": 0,
+            "n_gave_up": 233,
+            "n_incomplete": 0,
+            "n_reset": 62,
+            "n_solved": 143,
+            "reset_rate": 0.16489361702127658,
+            "solve_rate": 0.3803191489361702
+          },
+          "human_human_distance": 0.193839505857206,
+          "model_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 1.0,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 80.65159574468085,
+            "n": 376,
+            "n_capped": 0,
+            "n_gave_up": 376,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 0,
+            "reset_rate": 0.0,
+            "solve_rate": 0.0
+          },
+          "model_human_at_reference_n": 0.693795928063466,
+          "n_boards": 4,
+          "n_rt": 8797,
+          "n_rt_scored_boards": 4,
+          "rt_spearman": -0.060905214140875165,
+          "trajectory_distance": 0.6907311938405765
+        },
+        "us_9": {
+          "boards": [
+            "30026",
+            "30027",
+            "30028",
+            "30029"
+          ],
+          "human_diagnostics": {
+            "cap_rate": 0.0,
+            "give_up_rate": 0.5079365079365079,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 15.015625,
+            "n": 378,
+            "n_capped": 0,
+            "n_gave_up": 192,
+            "n_incomplete": 0,
+            "n_reset": 24,
+            "n_solved": 186,
+            "reset_rate": 0.06349206349206349,
+            "solve_rate": 0.49206349206349204
+          },
+          "human_human_distance": 0.09495262656958563,
+          "model_diagnostics": {
+            "cap_rate": 0.005291005291005291,
+            "give_up_rate": 0.9894179894179894,
+            "incomplete_rate": 0.0,
+            "moves_before_give_up": 81.63903743315508,
+            "n": 378,
+            "n_capped": 2,
+            "n_gave_up": 374,
+            "n_incomplete": 0,
+            "n_reset": 0,
+            "n_solved": 2,
+            "reset_rate": 0.0,
+            "solve_rate": 0.005291005291005291
+          },
+          "model_human_at_reference_n": 0.7727987726200649,
+          "n_boards": 4,
+          "n_rt": 5907,
+          "n_rt_scored_boards": 4,
+          "rt_spearman": -0.07270019644329434,
+          "trajectory_distance": 0.7709416429966746
+        }
+      }
+    }
+  },
+  "comparison": {
+    "macro": {
+      "baseline": {
+        "model_human_at_reference_n": 0.7332973503417655,
+        "rt_spearman": -0.06680270529208475,
+        "trajectory_distance": 0.7308364184186256
+      },
+      "champion": {
+        "model_human_at_reference_n": 0.299443634737934,
+        "rt_spearman": 0.06403261893456834,
+        "trajectory_distance": 0.291834999873682
+      },
+      "champion_minus_baseline": {
+        "model_human_at_reference_n": -0.43385371560383146,
+        "rt_spearman": 0.1308353242266531,
+        "trajectory_distance": -0.43900141854494357
+      },
+      "human_human_distance_at_matched_reference_n": 0.14439606621339582
+    },
+    "per_board": {
+      "30005": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7149555042745156,
+          "rt_spearman": -0.07649080024695361,
+          "trajectory_distance": 0.7144165275334025
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.21791609411007773,
+          "rt_spearman": 0.13962494725416852,
+          "trajectory_distance": 0.21666702541182384
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.49703941016443787,
+          "rt_spearman": 0.2161157475011221,
+          "trajectory_distance": -0.49774950212157865
+        },
+        "human_human_distance_at_matched_reference_n": 0.14470986012851786
+      },
+      "30006": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7027737584564525,
+          "rt_spearman": -0.04420803537306275,
+          "trajectory_distance": 0.7013469392022598
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.21792396936721273,
+          "rt_spearman": 0.17943410758287479,
+          "trajectory_distance": 0.2165987142088637
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.4848497890892398,
+          "rt_spearman": 0.22364214295593754,
+          "trajectory_distance": -0.4847482249933961
+        },
+        "human_human_distance_at_matched_reference_n": 0.14038191044456338
+      },
+      "30007": {
+        "baseline": {
+          "model_human_at_reference_n": 0.6746270037435889,
+          "rt_spearman": -0.07108439083264023,
+          "trajectory_distance": 0.6763189678868476
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.4127416465807558,
+          "rt_spearman": -0.0008206314385469889,
+          "trajectory_distance": 0.39007496904999606
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.26188535716283307,
+          "rt_spearman": 0.07026375939409324,
+          "trajectory_distance": -0.2862439988368516
+        },
+        "human_human_distance_at_matched_reference_n": 0.23629788103398117
+      },
+      "30008": {
+        "baseline": {
+          "model_human_at_reference_n": 0.6828274457793069,
+          "rt_spearman": -0.05183763011084408,
+          "trajectory_distance": 0.6708423407397962
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.4190699453023779,
+          "rt_spearman": 0.03180360251832372,
+          "trajectory_distance": 0.3977578537033855
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.263757500476929,
+          "rt_spearman": 0.0836412326291678,
+          "trajectory_distance": -0.2730844870364107
+        },
+        "human_human_distance_at_matched_reference_n": 0.2539683718217615
+      },
+      "30026": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7769377848807429,
+          "rt_spearman": 0.019517454746276624,
+          "trajectory_distance": 0.774328489323576
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.4168527040161097,
+          "rt_spearman": 0.019426623509729513,
+          "trajectory_distance": 0.4086168487874869
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.36008508086463326,
+          "rt_spearman": -9.083123654711131e-05,
+          "trajectory_distance": -0.3657116405360891
+        },
+        "human_human_distance_at_matched_reference_n": 0.1552005832448901
+      },
+      "30027": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7524991607276051,
+          "rt_spearman": 0.019056629506971776,
+          "trajectory_distance": 0.7523106468610539
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.21447901720725585,
+          "rt_spearman": 0.4035628627722177,
+          "trajectory_distance": 0.2173174483462048
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.5380201435203493,
+          "rt_spearman": 0.3845062332652459,
+          "trajectory_distance": -0.534993198514849
+        },
+        "human_human_distance_at_matched_reference_n": 0.05743816621880735
+      },
+      "30028": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7776882839298459,
+          "rt_spearman": 0.00015395782484942547,
+          "trajectory_distance": 0.7727497983512597
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.4792754648589652,
+          "rt_spearman": -0.30851247139479765,
+          "trajectory_distance": 0.46994687709552463
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.2984128190708807,
+          "rt_spearman": -0.3086664292196471,
+          "trajectory_distance": -0.30280292125573505
+        },
+        "human_human_distance_at_matched_reference_n": 0.14810199743596117
+      },
+      "30029": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7840698609420657,
+          "rt_spearman": -0.3295288278512752,
+          "trajectory_distance": 0.7843776374508086
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.01729023646071701,
+          "rt_spearman": 0.047741910672577104,
+          "trajectory_distance": 0.017700262386170704
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.7667796244813486,
+          "rt_spearman": 0.3772707385238523,
+          "trajectory_distance": -0.7666773750646378
+        },
+        "human_human_distance_at_matched_reference_n": 0.019069759378683864
+      }
+    },
+    "per_family": {
+      "us_2": {
+        "baseline": {
+          "model_human_at_reference_n": 0.693795928063466,
+          "rt_spearman": -0.060905214140875165,
+          "trajectory_distance": 0.6907311938405765
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.31691291384010606,
+          "rt_spearman": 0.08751050647920501,
+          "trajectory_distance": 0.3052746405935173
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.37688301422335996,
+          "rt_spearman": 0.14841572062008018,
+          "trajectory_distance": -0.3854565532470592
+        },
+        "human_human_distance_at_matched_reference_n": 0.193839505857206
+      },
+      "us_9": {
+        "baseline": {
+          "model_human_at_reference_n": 0.7727987726200649,
+          "rt_spearman": -0.07270019644329434,
+          "trajectory_distance": 0.7709416429966746
+        },
+        "champion": {
+          "model_human_at_reference_n": 0.28197435563576195,
+          "rt_spearman": 0.04055473138993167,
+          "trajectory_distance": 0.2783953591538468
+        },
+        "champion_minus_baseline": {
+          "model_human_at_reference_n": -0.49082441698430296,
+          "rt_spearman": 0.11325492783322601,
+          "trajectory_distance": -0.4925462838428278
+        },
+        "human_human_distance_at_matched_reference_n": 0.09495262656958563
+      }
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "aggregate": {
+    "baseline": {
+      "dyad_equal_mean": {
+        "choice_nll": 2.3022912574803835,
+        "rt_log_pearson": 0.32328309630364543,
+        "rt_spearman": 0.3211309485621404,
+        "tactical_3class_nll": 0.8796704224040212,
+        "top1_fractional": 0.3693422025896921
+      },
+      "tactics": {
+        "all": {
+          "observed_count": {
+            "block": 334,
+            "offensive_miss": 28,
+            "other_miss": 47
+          },
+          "observed_rate": {
+            "block": 0.8166259168704156,
+            "offensive_miss": 0.06845965770171149,
+            "other_miss": 0.11491442542787286
+          },
+          "offensive_given_miss": {
+            "observed": 0.3733333333333333,
+            "raw_model": 0.5026158445440956,
+            "smoothed_model": 0.34536151559780265
+          },
+          "position_pooled_tactical_3class_nll": 0.9111846998144337,
+          "positions": 409,
+          "raw_mass": {
+            "block": 241.75,
+            "offensive_miss": 84.0625,
+            "other_miss": 83.1875
+          },
+          "raw_model_rate": {
+            "block": 0.5910757946210269,
+            "offensive_miss": 0.2055317848410758,
+            "other_miss": 0.2033924205378973
+          },
+          "smoothed_mass": {
+            "block": 186.3778634279845,
+            "offensive_miss": 76.88511849213228,
+            "other_miss": 145.7370180798832
+          },
+          "smoothed_model_rate": {
+            "block": 0.455691597623434,
+            "offensive_miss": 0.18798317479738944,
+            "other_miss": 0.3563252275791765
+          },
+          "tactical_nll_sum": 372.6745422241034,
+          "tv_raw": 0.22555012224938875,
+          "tv_smoothed": 0.3609343192469816
+        },
+        "no_offense_available": {
+          "observed_count": {
+            "block": 47,
+            "offensive_miss": 0,
+            "other_miss": 19
+          },
+          "observed_rate": {
+            "block": 0.7121212121212122,
+            "offensive_miss": 0.0,
+            "other_miss": 0.2878787878787879
+          },
+          "offensive_given_miss": {
+            "observed": 0.0,
+            "raw_model": 0.0,
+            "smoothed_model": 0.0
+          },
+          "position_pooled_tactical_3class_nll": 0.6915697543824786,
+          "positions": 66,
+          "raw_mass": {
+            "block": 45.625,
+            "offensive_miss": 0.0,
+            "other_miss": 20.375
+          },
+          "raw_model_rate": {
+            "block": 0.6912878787878788,
+            "offensive_miss": 0.0,
+            "other_miss": 0.3087121212121212
+          },
+          "smoothed_mass": {
+            "block": 36.47807942811964,
+            "offensive_miss": 0.0,
+            "other_miss": 29.521920571880365
+          },
+          "smoothed_model_rate": {
+            "block": 0.5526981731533279,
+            "offensive_miss": 0.0,
+            "other_miss": 0.4473018268466722
+          },
+          "tactical_nll_sum": 45.643603789243585,
+          "tv_raw": 0.020833333333333343,
+          "tv_smoothed": 0.15942303896788426
+        },
+        "offense_available": {
+          "observed_count": {
+            "block": 287,
+            "offensive_miss": 28,
+            "other_miss": 28
+          },
+          "observed_rate": {
+            "block": 0.8367346938775511,
+            "offensive_miss": 0.08163265306122448,
+            "other_miss": 0.08163265306122448
+          },
+          "offensive_given_miss": {
+            "observed": 0.5,
+            "raw_model": 0.5723404255319149,
+            "smoothed_model": 0.3981617425641744
+          },
+          "position_pooled_tactical_3class_nll": 0.9534429691978419,
+          "positions": 343,
+          "raw_mass": {
+            "block": 196.125,
+            "offensive_miss": 84.0625,
+            "other_miss": 62.8125
+          },
+          "raw_model_rate": {
+            "block": 0.5717930029154519,
+            "offensive_miss": 0.2450801749271137,
+            "other_miss": 0.1831268221574344
+          },
+          "smoothed_mass": {
+            "block": 149.89978399986487,
+            "offensive_miss": 76.88511849213228,
+            "other_miss": 116.21509750800284
+          },
+          "smoothed_model_rate": {
+            "block": 0.4370256093290521,
+            "offensive_miss": 0.22415486440854893,
+            "other_miss": 0.338819526262399
+          },
+          "tactical_nll_sum": 327.03093843485976,
+          "tv_raw": 0.2649416909620992,
+          "tv_smoothed": 0.39970908454849896
+        }
+      }
+    },
+    "r3-c1": {
+      "dyad_equal_mean": {
+        "choice_nll": 2.2970442939396767,
+        "rt_log_pearson": 0.3677502346920177,
+        "rt_spearman": 0.37597527565778116,
+        "tactical_3class_nll": 0.8787826011071291,
+        "top1_fractional": 0.3717574576585649
+      },
+      "tactics": {
+        "all": {
+          "observed_count": {
+            "block": 334,
+            "offensive_miss": 28,
+            "other_miss": 47
+          },
+          "observed_rate": {
+            "block": 0.8166259168704156,
+            "offensive_miss": 0.06845965770171149,
+            "other_miss": 0.11491442542787286
+          },
+          "offensive_given_miss": {
+            "observed": 0.3733333333333333,
+            "raw_model": 0.5048561822936123,
+            "smoothed_model": 0.3466943224630072
+          },
+          "position_pooled_tactical_3class_nll": 0.9106437567233245,
+          "positions": 409,
+          "raw_mass": {
+            "block": 241.6875,
+            "offensive_miss": 84.46875,
+            "other_miss": 82.84375
+          },
+          "raw_model_rate": {
+            "block": 0.5909229828850856,
+            "offensive_miss": 0.20652506112469438,
+            "other_miss": 0.20255195599022005
+          },
+          "smoothed_mass": {
+            "block": 186.33212012886548,
+            "offensive_miss": 77.19768974619727,
+            "other_miss": 145.47019012493726
+          },
+          "smoothed_model_rate": {
+            "block": 0.455579755816297,
+            "offensive_miss": 0.18874740769241385,
+            "other_miss": 0.35567283649128917
+          },
+          "tactical_nll_sum": 372.4532964998397,
+          "tv_raw": 0.22570293398533006,
+          "tv_smoothed": 0.36104616105411863
+        },
+        "no_offense_available": {
+          "observed_count": {
+            "block": 47,
+            "offensive_miss": 0,
+            "other_miss": 19
+          },
+          "observed_rate": {
+            "block": 0.7121212121212122,
+            "offensive_miss": 0.0,
+            "other_miss": 0.2878787878787879
+          },
+          "offensive_given_miss": {
+            "observed": 0.0,
+            "raw_model": 0.0,
+            "smoothed_model": 0.0
+          },
+          "position_pooled_tactical_3class_nll": 0.6858685675649888,
+          "positions": 66,
+          "raw_mass": {
+            "block": 45.875,
+            "offensive_miss": 0.0,
+            "other_miss": 20.125
+          },
+          "raw_model_rate": {
+            "block": 0.6950757575757576,
+            "offensive_miss": 0.0,
+            "other_miss": 0.30492424242424243
+          },
+          "smoothed_mass": {
+            "block": 36.64319213829775,
+            "offensive_miss": 0.0,
+            "other_miss": 29.35680786170225
+          },
+          "smoothed_model_rate": {
+            "block": 0.5551998808832992,
+            "offensive_miss": 0.0,
+            "other_miss": 0.44480011911670075
+          },
+          "tactical_nll_sum": 45.26732545928926,
+          "tv_raw": 0.017045454545454558,
+          "tv_smoothed": 0.1569213312379129
+        },
+        "offense_available": {
+          "observed_count": {
+            "block": 287,
+            "offensive_miss": 28,
+            "other_miss": 28
+          },
+          "observed_rate": {
+            "block": 0.8367346938775511,
+            "offensive_miss": 0.08163265306122448,
+            "other_miss": 0.08163265306122448
+          },
+          "offensive_given_miss": {
+            "observed": 0.5,
+            "raw_model": 0.5738853503184713,
+            "smoothed_model": 0.3993443776589814
+          },
+          "position_pooled_tactical_3class_nll": 0.9538949593018965,
+          "positions": 343,
+          "raw_mass": {
+            "block": 195.8125,
+            "offensive_miss": 84.46875,
+            "other_miss": 62.71875
+          },
+          "raw_model_rate": {
+            "block": 0.5708819241982507,
+            "offensive_miss": 0.24626457725947523,
+            "other_miss": 0.18285349854227406
+          },
+          "smoothed_mass": {
+            "block": 149.68892799056772,
+            "offensive_miss": 77.19768974619727,
+            "other_miss": 116.11338226323501
+          },
+          "smoothed_model_rate": {
+            "block": 0.43641086877716534,
+            "offensive_miss": 0.2250661508635489,
+            "other_miss": 0.33852298035928574
+          },
+          "tactical_nll_sum": 327.1859710405505,
+          "tv_raw": 0.2658527696793003,
+          "tv_smoothed": 0.40032382510038567
+        }
+      }
+    }
+  },
+  "champion_spec": {
+    "offset": {},
+    "scale": {},
+    "search": {
+      "alternative_interval": 4,
+      "deep_ply": 2,
+      "deep_prune_scale": 1.0,
+      "frontier": "close_alternatives",
+      "gap": 1.6,
+      "pruning": "fixed",
+      "root_prune_scale": 1.0,
+      "stability_limit": null,
+      "stability_min_iterations": 1
+    }
+  },
+  "legal_move_alpha": 0.5,
+  "models": [
+    "baseline",
+    "r3-c1"
+  ],
+  "n": {
+    "actors": 16,
+    "choice_moves": 2721,
+    "dyads": 8,
+    "games": 159,
+    "rt_moves": 1715,
+    "tactics": 409
+  },
+  "paired_equal_dyad": {
+    "choice_nll": {
+      "dyad_bootstrap_percentile_95": [
+        -0.020928818388250975,
+        0.01115100145668571
+      ],
+      "dyads_improved": 5,
+      "r3_minus_baseline": -0.005246963540706612
+    },
+    "rt_log_pearson": {
+      "dyad_bootstrap_percentile_95": [
+        0.02199068680008516,
+        0.06619814079326419
+      ],
+      "dyads_improved": 7,
+      "r3_minus_baseline": 0.04446713838837226
+    },
+    "rt_spearman": {
+      "dyad_bootstrap_percentile_95": [
+        0.024218638844034843,
+        0.08645852864652281
+      ],
+      "dyads_improved": 7,
+      "r3_minus_baseline": 0.054844327095640744
+    },
+    "tactical_3class_nll": {
+      "dyad_bootstrap_percentile_95": [
+        -0.007173870378832589,
+        0.006205227078027578
+      ],
+      "dyads_improved": 5,
+      "r3_minus_baseline": -0.0008878212968919941
+    },
+    "top1_fractional": {
+      "dyad_bootstrap_percentile_95": [
+        -0.005404719630442048,
+        0.010409183924497245
+      ],
+      "dyads_improved": 4,
+      "r3_minus_baseline": 0.0024152550688728014
+    }
+  },
+  "samples_per_move_per_mode": 32
+}
